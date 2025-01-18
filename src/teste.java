@@ -5,8 +5,8 @@ public  class teste{
         Professor professor = new Professor("Jiraya", "Rasengan");
         Aluno[] alunosParaSeminario = {aluno};
         Seminario seminario = new Seminario("Como aprender Rasengan", local, alunosParaSeminario);
-        Seminario[]seminariosDisponiveis = {seminario};
-        professor.setSeminarios(seminariosDisponiveis);
+        Seminario[]seminarios = {seminario};
+        professor.setSeminarios(seminarios);
        
         
     }
